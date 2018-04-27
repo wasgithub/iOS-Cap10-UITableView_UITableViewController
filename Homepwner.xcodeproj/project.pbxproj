@@ -16,6 +16,8 @@
 		E6360164209216F3005044F5 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6360163209216F3005044F5 /* ItemsViewController.swift */; };
 		E636016620921909005044F5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636016520921909005044F5 /* Item.swift */; };
 		E636016820921D02005044F5 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636016720921D02005044F5 /* ItemStore.swift */; };
+		E64306DC2093501500069902 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64306DB2093501500069902 /* ItemCell.swift */; };
+		E64306DE2093942500069902 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64306DD2093942500069902 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E6360163209216F3005044F5 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		E636016520921909005044F5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E636016720921D02005044F5 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		E64306DB2093501500069902 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E64306DD2093942500069902 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		E63601292092162B005044F5 = {
 			isa = PBXGroup;
 			children = (
+				E64306DD2093942500069902 /* DetailViewController.swift */,
 				E63601342092162B005044F5 /* Homepwner */,
 				E63601492092162C005044F5 /* HomepwnerTests */,
 				E63601542092162C005044F5 /* HomepwnerUITests */,
@@ -105,6 +110,7 @@
 				E636016520921909005044F5 /* Item.swift */,
 				E63601352092162B005044F5 /* AppDelegate.swift */,
 				E63601392092162B005044F5 /* Main.storyboard */,
+				E64306DB2093501500069902 /* ItemCell.swift */,
 				E6360163209216F3005044F5 /* ItemsViewController.swift */,
 				E636013C2092162C005044F5 /* Assets.xcassets */,
 				E636013E2092162C005044F5 /* LaunchScreen.storyboard */,
@@ -265,7 +271,9 @@
 				E6360164209216F3005044F5 /* ItemsViewController.swift in Sources */,
 				E636016620921909005044F5 /* Item.swift in Sources */,
 				E636016820921D02005044F5 /* ItemStore.swift in Sources */,
+				E64306DE2093942500069902 /* DetailViewController.swift in Sources */,
 				E63601362092162B005044F5 /* AppDelegate.swift in Sources */,
+				E64306DC2093501500069902 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
